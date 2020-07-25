@@ -59,6 +59,9 @@
                                     <a class="dropdown-item" href="{{ route('post.create') }}">
                                         レシピの投稿
                                     </a>
+                                    <a class="dropdown-item" href="{{ route('user.post_list') }}">
+                                        マイレシピ一覧
+                                    </a>
                                     <a class="dropdown-item" href="{{ route('user.index') }}">
                                         ユーザー情報
                                     </a>

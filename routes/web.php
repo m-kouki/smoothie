@@ -25,6 +25,7 @@ Route::group(['prefix' => 'post'], function () {
 Route::group(['prefix' => 'user'], function () {
     Route::get('/', 'UserController@index')->name('user.index');
     Route::get('/edit', 'UserController@edit')->name('user.edit');
+    Route::post('/update', 'UserController@update')->name('user.update');
     Route::get('/post_list', 'UserController@post_list')->name('user.post_list');
 });
 
